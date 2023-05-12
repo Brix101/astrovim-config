@@ -18,7 +18,7 @@ return {
       -- Set a linters
       null_ls.builtins.diagnostics.dotenv_linter,
       null_ls.builtins.diagnostics.todo_comments,
-      null_ls.builtins.diagnostics.tsc,
+      -- null_ls.builtins.diagnostics.tsc,
     }
     return config -- return final config table
   end,
