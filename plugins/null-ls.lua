@@ -13,8 +13,6 @@ return {
       null_ls.builtins.formatting.prettier,
       null_ls.builtins.formatting.prettierd,
       null_ls.builtins.formatting.rustfmt,
-      null_ls.builtins.formatting.deno_fmt,
-      null_ls.builtins.formatting.eslint,
       null_ls.builtins.formatting.gofmt,
       null_ls.builtins.formatting.prismaFmt,
       -- Set a linters
