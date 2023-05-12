@@ -6,8 +6,8 @@ return {
       "css",
       "dockerfile",
       "dot",
-      "git-config",
-      "git-rebase",
+      "git_config",
+      "git_rebase",
       "gitattributes",
       "gitcommit",
       "gitignore",
@@ -20,8 +20,11 @@ return {
       "prisma",
       "python",
       "rust",
+      "sql",
       "tsx",
       "typescript",
+      "vim",
+      "yaml",
     })
   end,
 }
