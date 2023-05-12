@@ -16,7 +16,7 @@ return {
       null_ls.builtins.formatting.gofmt,
       null_ls.builtins.formatting.prismaFmt,
       -- Set a linters
-      null_ls.builtins.diagnostics.dotenv_linter,
+      -- null_ls.builtins.diagnostics.dotenv_linter,
       null_ls.builtins.diagnostics.todo_comments,
       -- null_ls.builtins.diagnostics.tsc,
     }
