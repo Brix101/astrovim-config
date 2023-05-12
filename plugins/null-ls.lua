@@ -2,15 +2,25 @@ return {
   "jose-elias-alvarez/null-ls.nvim",
   opts = function(_, config)
     -- config variable is the default configuration table for the setup function call
-    -- local null_ls = require "null-ls"
+    local null_ls = require "null-ls"
 
     -- Check supported formatters and linters
     -- https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/formatting
     -- https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/diagnostics
     config.sources = {
       -- Set a formatter
-      -- null_ls.builtins.formatting.stylua,
-      -- null_ls.builtins.formatting.prettier,
+      null_ls.builtins.formatting.stylua,
+      null_ls.builtins.formatting.prettier,
+      null_ls.builtins.formatting.prettierd,
+      null_ls.builtins.formatting.rustfmt,
+      null_ls.builtins.formatting.deno_fmt,
+      null_ls.builtins.formatting.eslint,
+      null_ls.builtins.formatting.gofmt,
+      null_ls.builtins.formatting.prismaFmt,
+      -- Set a linters
+      null_ls.builtins.diagnostics.dotenv_linter,
+      null_ls.builtins.diagnostics.todo_comments,
+      null_ls.builtins.diagnostics.tsc,
     }
     return config -- return final config table
   end,
