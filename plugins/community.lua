@@ -6,6 +6,8 @@ return {
 
   { import = "astrocommunity.colorscheme.rose-pine" },
   { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.vscode-nvim" },
+
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.dart" },
   { import = "astrocommunity.pack.docker" },
