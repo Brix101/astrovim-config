@@ -13,7 +13,7 @@ return {
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.markdown" },
-  { import = "astrocommunity.pack.php" },
+  -- { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.prisma" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.rust" },

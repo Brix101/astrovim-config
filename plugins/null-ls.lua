@@ -15,10 +15,11 @@ return {
       null_ls.builtins.formatting.rustfmt,
       null_ls.builtins.formatting.gofmt,
       null_ls.builtins.formatting.prismaFmt,
+      null_ls.builtins.formatting.csharpier,
       -- Set a linters
-      -- null_ls.builtins.diagnostics.dotenv_linter,
+      null_ls.builtins.diagnostics.dotenv_linter,
       null_ls.builtins.diagnostics.todo_comments,
-      -- null_ls.builtins.diagnostics.tsc,
+      null_ls.builtins.diagnostics.tsc,
     }
     return config -- return final config table
   end,

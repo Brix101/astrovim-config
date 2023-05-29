@@ -19,6 +19,7 @@ return {
         "rust_analyzer",
         "sqlls",
         "tailwindcss",
+        "csharp_ls",
       })
     end,
   },
@@ -32,6 +33,7 @@ return {
         "prettier",
         "stylua",
         "rustfmt",
+        "csharpier",
       })
     end,
   },
